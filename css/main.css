@@ -1,0 +1,171 @@
+.show_content,
+.count_content,
+.active_content {
+	background-color: #F8F8F8;
+	padding: 32px;
+	border-radius: 7px;
+	margin-top: 50px;
+}
+
+.show_content a.aubtn,
+.count_content .aubtn{
+	display: block;
+	width: 100%;
+	background-color: #1D3557;
+	color: #fff;
+	text-align: center;
+	padding: 7px;
+}
+
+.active_content .aubtn{
+	display: block;
+	width: 100%;
+	background-color: #E63946;
+	color: #fff;
+	text-align: center;
+	padding: 7px;
+}
+
+.show_content h3, 
+.show_content p {
+	margin-bottom: 15px;
+}
+
+.count_content h3,
+.active_content h3 {
+	text-align: center;
+}
+
+.active_content #bid_amount {
+	height: 30px;
+	border: none;
+}
+
+.active_content #offerbtn {
+	border: none;
+}
+
+.offer_field {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.offer_field label {
+	margin-right: 5px;
+}
+
+.active_content p.error {
+	color: red;
+	text-align: center;
+	display: none;
+}
+
+/* Count down time clock */
+.auction-countdown {
+    margin-top: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.auction-countdown-item {
+    width: 25%;
+    max-width: 88px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.auction-countdown-item span {
+    color: #1D3557;
+}
+
+.auction-countdown-item .color-light {
+    color: #9399A1;
+}
+
+#count-time {
+	display: none;
+}
+
+
+/* Stock */
+
+#current_offer {
+	margin: 15px 0;
+}
+
+.curoff_content {
+	border: 1px solid #ddd;
+	padding: 3px 7px;
+	border-radius: 3px;
+	margin-right: 7px;
+}
+
+.curoff_content .bid {
+	color: red;
+	font-weight: bold;
+}
+
+/* Shortcode */
+
+#mem_content .tr_content {
+	border: 1px solid #ddd;
+	padding: 6px 8px;
+	border-radius: 3px;
+	margin-right: 15px;
+}
+
+#mem_content .amount {
+	color: red;	
+}
+
+#mem_content .goal {
+	display: inline;
+	position: relative;
+}
+
+#mem_content .goal_text {
+	box-shadow: 5px 10px 18px #ddd;
+	border-radius: 3px;
+	padding: 6px 10px;
+	background-color: #eee;
+	display: none;
+}
+
+/*.tr_content .im-info:hover #mem_content .goal_text {
+    display: block;
+}*/
+
+#mem_content .goal_text::before {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-right: 15px solid #eee;
+  border-bottom: 8px solid transparent;
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: -12px;
+
+}
+
+.tr_content .im-info {
+	display: inline-block;
+	background-image: url("https://dev.thekallective.com/wp-content/themes/kallective/img/icons/info.svg");
+	width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+}
